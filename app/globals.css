@@ -24,3 +24,47 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('fonts/Poppins-Regular.ttf');  
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('fonts/Poppins-Light.ttf');  
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('fonts/Poppins-SemiBold.ttf');  
+}
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url('fonts/Poppins-Thin.ttf');  
+}
+
+.poppins-regular {
+  font-family: 'Poppins-Regular';
+}
+
+.poppins-thin {
+  font-family: 'Poppins-Thin';
+}
+
+.poppins-semibold {
+  font-family: 'Poppins-Semibold';
+}
+
+.poppins-light {
+  font-family: 'Poppins-Light';
+}
+
+#title {
+  font-size: 5rem;
+}
+
+#sub-title {
+  font-size: 1.5rem;
+}
